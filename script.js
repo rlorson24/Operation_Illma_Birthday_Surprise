@@ -19,7 +19,7 @@ function createScreens() {
         if(index === 0) screen.classList.add("active-screen");
 
         const video = document.createElement("video");
-        video.src = "images/" + file;
+        video.src = file;
         video.muted = true;
         video.playsInline = true;
         video.autoplay = false;
